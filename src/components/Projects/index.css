@@ -1,0 +1,103 @@
+.project-item {
+  background-color: #fff;
+  width: 300px;
+  gap: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  margin:20px;
+}
+.head {
+  font-size: 18px;
+  font-weight: 600px;
+  color: #475569;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.image {
+  width: 100%;
+  border-top-right-radius:20px;
+  border-top-left-radius: 20px;
+}
+.project-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 100vh;
+}
+.nav-bar {
+  background-color: #cbd5e1;
+  width: 100%;
+}
+.website-logo {
+  width: 150px;
+  margin-left: 20px;
+}
+.nav-content {
+  padding: 20px;
+}
+
+.projects {
+  margin-top: 30px;
+}
+
+.select-container {
+  width: 25%;
+  border-radius: 8px;
+  height: 40px;
+  border: 1px solid #475569;
+  background-color: transparent;
+  margin-left: 30px;
+}
+.select-option {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #000;
+}
+
+.loader-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+  align-items: center;
+  min-height: 60vh;
+}
+.failure-text {
+  color: #0f0f0f;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+.failure-note {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #94a3b8;
+}
+
+.failure-btn {
+  padding: 8px 16px;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.failure-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
